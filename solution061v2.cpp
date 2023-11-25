@@ -11,6 +11,7 @@
 
 //1可以先构造数组，旋转数组，在重新根据数组构造旋转后链表
 //2或者直接旋转链表(*)
+//结构化绑定语法：auto [head1, tail1] = rotatelocal(head, k);
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
